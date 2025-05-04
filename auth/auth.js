@@ -34,6 +34,7 @@ loginBtn.addEventListener("click", async () => {
     // Check if the logged-in user's email is in the allowed emails list
     if (allowedEmails.includes(user.email)) {
       status.textContent = `Welcome, ${user.displayName}`;
+      window.localStorage.setItem("e01", 'null');
       setTimeout(() => {
         window.location.href = "/admin.html"; // Redirect to admin page
       }, 1000);
