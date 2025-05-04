@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;500&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  /* background: linear-gradient(135deg, #fbeaff, #dbf4ff); */
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.admin-container {
+  max-width: 800px;
+  margin:  auto;
+  background: #f8f8f8;
+  border-radius: 0;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  height: 100%;
+}
+
+h1 {
+  color: #022660;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+textarea {
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  resize: vertical;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+  min-height: 100px;
+}
+
+button[type="submit"] {
+  padding: 12px;
+  font-size: 16px;
+  background: #0078bd;
+  box-shadow: 0 8px 18px #0051803f;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button[type="submit"]:hover {
+  background: #006097;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.shayari-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+}
+
+.shayari-text {
+  white-space: pre-line;
+  font-size: 15px;
+  color: #444;
+}
+
+.card-actions {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  display: flex;
+  gap: 8px;
+}
+
+.card-actions i {
+  cursor: pointer;
+  font-size: 15px;
+  color: #fff;
+  transition: color 0.2s ease;
+}
+
+#logoutBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #eb2571, #e54669);
+  box-shadow: 0 8px 18px #db045750;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 7px;
+  margin: 22px auto;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+  width: 80%;
+}
+
+#logoutBtn:hover {
+  background: linear-gradient(to right, #b91d59, #ac344e);
+}
+
+.e {
+  margin-left: 5px;
+  padding: 10px;
+  border-radius: 35px;
+  font-size: smaller;
+}
+
+.fa-pen{
+  background-color: #f7bb16;
+  box-shadow: 0 8px 18px #f7bb164b;
+}
+.fa-trash{
+  background-color: #f7166c;
+  box-shadow: 0 8px 18px rgba(236, 2, 92, 0.267)
+}
+
+#status {
+  margin-top: 20px;
+  font-size: 0.95rem;
+  color: #374151;
+}
